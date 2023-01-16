@@ -1,0 +1,48 @@
+:root {
+	--color-white: #fff;
+	--color-light: #f5f9fa;
+	--color-unaccent: #6b6a6a;
+	--color-items: rgb(152, 152, 237);
+
+	--spacing-small: 10px;
+	--spacing-medium: 15px;
+	--spacing-large: 30px;
+
+	--linear-gradient: linear-gradient(to right, #e2f87c, #d6f567, #c8f151, #b9ee38, #a8eb12);
+	--shadow-box: 
+		0 21px 29px 7px rgba(6, 7, 8, 0.1), 
+		0 11px 35px 10px rgba(6, 7, 8, 0.1), 
+		0 13px 15px -1px rgba(6, 7, 8, 0.1);
+
+	--shadow-btn: 
+		0 15px 13px 1px rgba(44, 54, 52, 0.1), 
+		0 5px 20px 4px rgba(44, 54, 52, 0.1), 
+		0 7px 9px 1px rgba(44, 54, 52, 0.1);
+}
+
+::-webkit-scrollbar {
+	width: 24px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #a0fffa;
+	border: 2px solid var(--color-items);
+	border-radius: 15px;
+}
+
+::-webkit-scrollbar-track {
+	background-color:rgb(157, 157, 238);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	line-height: 1.7;
+	background: rgb(128,255,231);
+	background: radial-gradient(circle, rgba(128,255,231,1) 4%, rgba(114,226,231,1) 49%, rgba(118,195,255,1) 95%);
+}
